@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button  href="/menu" color="secondary">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-text>Ticket MRT</ion-text>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="input">
+  <ion-item class='test'>
+    <ion-label position="stacked">Dari</ion-label>
+    <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" cancelText="Batalkan">
+      <ion-select-option value="Stasiun Sarinah">Stasiun Sarinah</ion-select-option>
+      <ion-select-option value="Stasiun Bundaran HI">Stasiun Bundaran HI</ion-select-option>
+      <ion-select-option value="Stasiun Dukuh Atas">Stasiun Dukuh Atas</ion-select-option>
+      <ion-select-option value="Stasiun Setiabudi">Stasiun Setia Budi</ion-select-option>
+      <ion-select-option value="Stasiun Benhil">Stasiun Benhil</ion-select-option>
+      <ion-select-option value="Stasiun Istora">Stasiun Istora</ion-select-option>
+      <ion-select-option value="Stasiun Senayan">Stasiun Senaya</ion-select-option>
+      <ion-select-option value="Stasiun Sisingamaraja">Stasiun Sisingamaraja</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item class='test'>
+    <ion-label position = "stacked"> Tujuan</ion-label>
+    <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet"  cancelText="Batalkan">
+      <ion-select-option value="Stasiun Sarinah">Stasiun Sarinah</ion-select-option>
+      <ion-select-option value="Stasiun Bundaran HI">Stasiun Bundaran HI</ion-select-option>
+      <ion-select-option value="Stasiun Dukuh Atas">Stasiun Dukuh Atas</ion-select-option>
+      <ion-select-option value="Stasiun Setiabudi">Stasiun Setia Budi</ion-select-option>
+      <ion-select-option value="Stasiun Benhil">Stasiun Benhil</ion-select-option>
+      <ion-select-option value="Stasiun Istora">Stasiun Istora</ion-select-option>
+      <ion-select-option value="Stasiun Senayan">Stasiun Senaya</ion-select-option>
+      <ion-select-option value="Stasiun Sisingamaraja">Stasiun Sisingamaraja</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
+  <ion-item class='test'>
+    <ion-label position="stacked">Tanggal berangkat</ion-label>
+    <ion-datetime displayFormat="DD MM YY"></ion-datetime>
+  </ion-item>
+  <ion-item class='test'>
+    <ion-label position = "stacked" >Nama Penumpang</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+</div>
+
+<ion-button class = "cari" href="https://google.com">Cari</ion-button>
+
+</ion-content>

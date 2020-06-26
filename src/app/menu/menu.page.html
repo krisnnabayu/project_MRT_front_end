@@ -1,0 +1,90 @@
+<ion-content>
+  <ion-searchbar animated placeholder="Apa yang anda ingin cari?"></ion-searchbar>
+  
+  <div class="slider">
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide >
+      <img src="../../assets/menupage/0.jpg"/>
+    </ion-slide>
+    <ion-slide ionSlideReachStart>
+      <img src="../../assets/menupage/cobamrt070219-1.jpg"/>
+    </ion-slide>
+    <ion-slide ionSlideTransitionEnd>
+      <img src="../../assets/menupage/ddd34b82-28be-4237-a3f7-f6d6b76223c2_169.jpeg"/>
+    </ion-slide >
+  </ion-slides>
+</div>
+
+<div class="button">
+  <ion-item>
+    <ion-tab-button href="/tiket">
+      <img src="../../assets/menupage/ticket.png">
+ 
+      <ion-label >Ticket MRT</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button href="rute">
+      <img src="../../assets/menupage/rute.png" >
+      <ion-label>Rute MRT</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button href="jadwalhariini">
+      <img src="../../assets/menupage/kalender.png">
+      <ion-label>Jadwal Hari Ini</ion-label>
+    </ion-tab-button>
+  </ion-item>
+</div>
+  
+  <div class="pesanan">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>id pesananan
+        </ion-card-subtitle>
+      </ion-card-header>    
+      <ion-card-content>
+        <ion-text>
+          tujuan
+        </ion-text>
+      </ion-card-content>
+
+    </ion-card>
+  </div>
+
+
+
+</ion-content>
+
+<div class="bawah">
+  <ion-footer>
+    <ion-toolbar>
+      <ion-tabs>
+        <ion-tab-bar slot="bottom">
+
+          <ion-tab-button tab="home">
+            <ion-icon color= "primary" name="home"></ion-icon>
+            <ion-label color= "primary">Beranda</ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button href ="/booking">
+            <ion-icon name="book-outline"></ion-icon>
+            <ion-label>Pesanan</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="mic">
+            <ion-icon size ="large" color="red" name="mic-outline"></ion-icon>
+          </ion-tab-button>
+      
+          <ion-tab-button href="/riwayat" >
+            <ion-icon name="receipt-outline"></ion-icon>
+            <ion-label>History</ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button href="/profile">
+            <ion-icon name="person"></ion-icon>
+            <ion-label>Profile</ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>  
+    </ion-toolbar>
+  </ion-footer>
+</div>

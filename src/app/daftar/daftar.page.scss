@@ -1,0 +1,34 @@
+ion-content.bg{
+    --background: linear-gradient(to right, #80A7B3,#B8DCFE );
+}
+
+ion-text.daftar{
+    position: relative;
+    font-size : 30px;
+    font-weight: bold;
+    left :40%;
+    top : 100px;
+}
+
+ion-item.test{
+    position: relative;
+    --background: none;
+    color:#375D81;
+    font-weight: bold;
+    top : 130px;
+    left :5%;
+    width: 90%;
+    --border-color:#375D81;
+}
+
+ion-button.daftar{
+    position : absolute;
+    width: 200px;
+    height : 50px;
+    top : 450px;
+    left: 25%;
+    --border-radius : 100px;
+    --background : #ffffff;
+    --color : #375C80 ;
+
+}

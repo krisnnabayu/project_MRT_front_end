@@ -1,0 +1,58 @@
+ion-content.background{
+    --background : url('../../assets/loginpage/Untitled-2.png') no-repeat center center;
+    background-size : contain;
+    background-position: center;
+    --overflow: hidden;
+}
+
+ion-input.email{
+    left:10%;
+    right :100px;
+    top:320px;
+    bottom : 100px;
+    width : 90%;
+    height : 40px;
+    --padding-bottom :10px;
+    --color : #ffffff;
+    --border-color : #ffffff;
+}
+ion-input.password{
+    left:10%;
+    right :100px;
+    top:320px;
+    bottom : 100px;
+    width : 80%;
+    height : 40px;
+    --padding-bottom :10px;
+    --color : #ffffff;
+    --border-color : #ffffff;
+}
+
+ion-text.lupa{
+    --color : #ffffff;
+    position: absolute;
+    top: 395px;
+    right: -30px;
+    width: 200px;
+    height: 100px;
+    font-size : 12px;
+}
+
+ion-button.Login{
+    width: 200px;
+    height : 50px;
+    top : 450px;
+    position : absolute;
+    left: 25%;
+    --border-radius : 100px;
+    --background : #ffffff;
+    --color : #375C80 ;
+}
+
+ion-text.daftar{
+    --color : #ffffff;
+    position: absolute;
+    top: 520px;
+    right: 27%;
+    font-size : 12px;
+}

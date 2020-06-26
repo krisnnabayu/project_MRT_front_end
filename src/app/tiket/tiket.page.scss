@@ -1,0 +1,28 @@
+ion-header{
+    font-size: 16px;
+}
+div.input{
+    ion-item.test{
+        position: relative;
+        --background: none;
+        color:#375D81;
+        font-weight: bold;
+        top : 130px;
+        left :5%;
+        width: 90%;
+        --border-color:#375D81;
+    }
+    ion-select{
+        width : 100%;
+        max-width : 100%
+    }
+}
+
+ion-button.cari{
+position: relative;
+left:10%;
+top: 200px;
+width : 80%;
+--border-radius : 20px;
+
+}
